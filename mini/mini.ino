@@ -8,8 +8,8 @@ int hpos = 0;
 int vpos = 0; 
 
 void setup() {
-  h.attach(32);
-  v.attach(1); 
+  h.attach(3);
+  v.attach(2); 
   Serial.begin(9600);
   while (!Serial) {
   }
